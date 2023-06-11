@@ -1,0 +1,54 @@
+{
+  "name": "demo-keyboard-react",
+  "version": "1.0.0",
+  "description": "Demo para probar el Teclado Virtual.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "webpack-dev-server --mode development --hot --progress --color --port 4200 --open"
+  },
+  "keywords": [
+    "Demo",
+    "Virtual",
+    "Keyboard",
+    "React",
+    "React Js",
+    "Javascript"
+  ],
+  "author": "Digital Soft",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-react": "^7.22.5",
+    "@types/react": "^18.2.11",
+    "@types/react-dom": "^18.2.4",
+    "ts-loader": "^6.2.2",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "react-hot-loader": "^4.12.18",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dom-server": "0.0.5",
+    "typescript": "^5.1.3",
+    "virtual-keyboard-react-simple": "^1.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
